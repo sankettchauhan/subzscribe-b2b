@@ -1,0 +1,45 @@
+.carousel-item{
+    height:60vh;
+}
+.carousel-image{
+    object-fit: cover;
+    height:100%;
+}
+.carousel-caption{
+    top:20px;
+}
+#blog-section{
+    .blog-card{
+        height:200px;
+        transition: all 0.3s;
+    }
+    .blog-card:hover{
+        transform: scale(1.02);
+    }
+    img{
+        height:100%;
+        object-fit: cover;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+#blog{
+    h1{
+        font-size: 4rem;
+        font-family: 'Times New Roman';
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    h5{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+a:hover{
+    text-decoration: none;
+    color: none;
+}

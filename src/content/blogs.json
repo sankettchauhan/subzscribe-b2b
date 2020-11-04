@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Title - Blog 1",
+        "subtitle": "Subtitle - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageSrc": "sample.jpg",
+        "content": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque sapien non felis scelerisque, pretium congue purus venenatis. Proin nisl libero, finibus sit amet venenatis bibendum, lacinia sit amet turpis. Morbi vulputate aliquam dolor. Proin sodales tortor ac lacus ullamcorper accumsan. Curabitur finibus magna sed sagittis tincidunt. Donec facilisis placerat diam, accumsan venenatis nulla commodo sed. In fringilla feugiat bibendum. Sed et turpis nisl. Nullam laoreet tincidunt luctus. Duis erat diam, luctus ac quam cursus, vestibulum bibendum ante. Pellentesque laoreet pellentesque nulla non dictum. Sed elit est, commodo quis sollicitudin vestibulum, tempus in elit. Quisque orci felis, tempus vel lorem eget, volutpat mattis enim. Ut egestas elementum felis et accumsan. Vestibulum porta felis a risus sollicitudin, vel porta enim facilisis. Fusce id velit venenatis, facilisis erat sed, semper felis.",
+            "Integer eget ipsum ac nisi porta pulvinar eu eget tellus. Donec id enim sagittis, faucibus nisi eu, cursus lacus. Mauris justo arcu, ultrices at augue eget, feugiat ullamcorper felis. Nullam vel lorem lectus. Maecenas pulvinar leo urna, finibus scelerisque ligula convallis vel. Integer vitae purus luctus, malesuada velit eu, ullamcorper tortor. Donec eu massa metus. Vivamus id purus feugiat magna dapibus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque dolor lacus, facilisis at aliquet sit amet, dictum at leo. Aliquam nisl diam, scelerisque et lacus a, dapibus consectetur metus. Etiam lorem sem, iaculis eu purus eu, rutrum laoreet turpis.",
+            "Vivamus nec massa in elit consequat consequat. Donec sagittis scelerisque justo non mattis. Sed orci arcu, placerat bibendum posuere nec, mollis bibendum velit. Ut pellentesque molestie porttitor. In eros libero, malesuada in velit ut, tincidunt tristique quam. Proin eu magna fermentum, auctor nisl ut, vulputate est. Vestibulum nec dapibus arcu, ac sodales nibh. Donec eu imperdiet dolor. Integer ultrices diam leo, eu interdum ipsum accumsan ut. Quisque vitae augue ac libero posuere eleifend. Sed accumsan augue a rhoncus viverra."
+        ],
+        "author": "author name"
+    },
+    {
+        "title": "blog 2",
+        "imageSrc": "sample.jpg",
+        "content": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie a dui non posuere. Aenean ac risus eget turpis egestas pretium. Nulla at neque at justo feugiat viverra. Duis porttitor mollis ipsum, eget porta urna dignissim facilisis."
+        ]
+    }
+]
