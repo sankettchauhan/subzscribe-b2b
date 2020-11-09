@@ -1,48 +1,58 @@
-.carousel-item {
+#home-page .carousel-item {
   height: 60vh;
 }
-
-.carousel-image {
+#home-page .carousel-image {
   object-fit: cover;
   height: 100%;
 }
-
-.carousel-caption {
+#home-page .carousel-caption {
   top: 20px;
 }
-
-#blog-section .blog-card {
-  height: 200px;
+#home-page #blog-section .subheading {
+  text-transform: uppercase;
+}
+#home-page #blog-section .blog-card {
   transition: all 0.3s;
 }
-#blog-section .blog-card:hover {
+#home-page #blog-section .blog-card:hover {
   transform: scale(1.02);
 }
-#blog-section img {
-  height: 100%;
+#home-page #blog-section img {
   object-fit: cover;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+}
+#home-page #blog-section a {
+  color: black;
 }
 
-#blog h1 {
-  font-size: 4rem;
+#blog-page h2 {
+  font-size: 3rem;
   font-family: "Times New Roman";
 }
-#blog h3 {
+#blog-page h3 {
   font-size: 2.5rem;
 }
-#blog h5 {
+#blog-page h5 {
   font-size: 1.5rem;
   text-transform: capitalize;
 }
-#blog p {
+#blog-page p {
   font-size: 1.3rem;
 }
 
 a:hover {
   text-decoration: none;
   color: none;
+}
+
+html {
+  font-size: 100%;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 125%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -5,17 +5,12 @@ import { toKebabCase } from '../../helperFunctions/toKebabCase'
 const BlogTemplate = ({ title, subtitle, author, content, blogNumber }) => (
     <>
         <div>
-            <h1>
+            <h2>
                 {title}
-            </h1>
+            </h2>
         </div>
         <div>
-            <h3 className="text-muted">
-                {subtitle}
-            </h3>
-        </div>
-        <div>
-            <h5>
+            <h5 className="text-muted">
                 {author}
             </h5>
         </div>
@@ -29,7 +24,7 @@ const BlogTemplate = ({ title, subtitle, author, content, blogNumber }) => (
 
 const Blog = ({ blogTitle }) => {
     return (
-        <div id="blog">
+        <div id="blog-page">
             <div className="row no-gutters">
                 <div className="col-lg-6 col-12 mx-auto">
                     <div className="p-3 p-lg-0 py-lg-5">

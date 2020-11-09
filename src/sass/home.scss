@@ -1,0 +1,30 @@
+#home-page{
+    .carousel-item{
+        height:60vh;
+    }
+    .carousel-image{
+        object-fit: cover;
+        height:100%;
+    }
+    .carousel-caption{
+        top:20px;
+    }
+    // BLOG SECTION
+    #blog-section{
+        .subheading{
+            text-transform: uppercase;
+        }
+        .blog-card{
+            transition: all 0.3s;
+        }
+        .blog-card:hover{
+            transform: scale(1.02);
+        }
+        img{
+            object-fit: cover;
+        }
+        a{
+            color:black;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+// BLOG PAGE
+#blog-page{
+    h2{
+        font-size: 3rem;
+        font-family: 'Times New Roman';
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    h5{
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+a:hover{
+    text-decoration: none;
+    color: none;
+}
