@@ -1,4 +1,5 @@
 import React from 'react'
+import LINKS from "../content/navbarLinks.json"
 
 const Navbar = () => {
     return (
@@ -11,18 +12,11 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
-                        <li className="nav-item active">
-                            <a className="nav-link" href="#deadlink">Home <span className="sr-only">(current)</span></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#deadlink">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#deadlink">Link</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#deadlink">Link</a>
-                        </li>
+                        {LINKS.map((item, index) => (
+                            <li className="nav-item" key={"navbar-link-" + item.name + "-" + { index }}>
+                                <a className="nav-link" href="#deadlink"><span className={item.icon} />{item.name}</a>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
