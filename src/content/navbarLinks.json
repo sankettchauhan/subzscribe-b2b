@@ -1,10 +1,18 @@
 [
     {
         "name": " Home",
-        "icon": "fas fa-home"
+        "icon": "fas fa-home",
+        "url":"/"
     },
     {
-        "name": "Link",
-        "icon": "fas"
+        "name": "Login",
+        "icon": "fas",
+        "url":"/login"
+    },
+    
+    {
+        "name": "Signup",
+        "icon": "fas",
+        "url":"/signup"
     }
 ]
