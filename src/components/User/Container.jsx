@@ -5,14 +5,14 @@ import Signup from "./Signup"
 
 const useStyles = makeStyles((theme) => ({
     container: {
-      height: "100vh",
       padding: 24,
     },
     paper: {
       padding: "30px 40px",
-      width: "70%",
+      width: "100%",
       [theme.breakpoints.up("md")]: {
         padding: "75px 0",
+        width:"70%"
       },
     },
     box: {
