@@ -1,3 +1,16 @@
-#footer{
-    background: beige;
+$primary: #06244d;
+
+#footer {
+  background: $primary;
+  color: white;
+  .nav-link {
+    color: white;
+    letter-spacing: 2px;
+  }
+  .nav-link:hover {
+    background: linear-gradient(to right, #ff6535 0%, #f79933 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
 }

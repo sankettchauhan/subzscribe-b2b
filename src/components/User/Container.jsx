@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, makeStyles, Paper } from "@material-ui/core";
+import { Grid, makeStyles, Paper,Typography } from "@material-ui/core";
 import Login from "./Login"
 import Signup from "./Signup"
 
@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
     paper: {
       padding: "30px 40px",
       width: "100%",
+      marginBottom:"2em",
       [theme.breakpoints.up("md")]: {
         padding: "75px 0",
         width:"70%"
@@ -20,12 +21,21 @@ const useStyles = makeStyles((theme) => ({
         padding: "0 80px",
       },
     },
+    heading:{
+      marginTop:"0.5em",
+      textTransform:"uppercase"
+    }
   }));
   
 const Container = ({type}) => {
   const classes = useStyles();
     return (
         <Grid container>
+        <Grid item container xs={12} justify="center" >
+        <Typography variant="h2" component="h2" gutterBottom className={classes.heading}>
+        {type}
+      </Typography>
+        </Grid>
         <Grid item xs={false} md={2} />
         <Grid
           item

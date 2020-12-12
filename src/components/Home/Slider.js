@@ -1,4 +1,10 @@
 import React from "react";
+const images = [
+  "https://stratacent.bigdropinc.net/wp-content/uploads/2020/09/1.jpg",
+  "https://stratacent.bigdropinc.net/wp-content/uploads/2020/09/2.jpg",
+  "https://stratacent.bigdropinc.net/wp-content/uploads/2020/09/3.jpg",
+  "https://stratacent.bigdropinc.net/wp-content/uploads/2020/09/4.jpg",
+];
 
 const Slider = () => {
   const PUBLIC_URL = process.env.PUBLIC_URL;
@@ -8,7 +14,7 @@ const Slider = () => {
         id="home-slider"
         className="carousel slide"
         data-ride="carousel"
-        data-interval="3000">
+        data-interval="30000000">
         <ol className="carousel-indicators">
           <li
             data-target="#home-slider"
@@ -20,38 +26,35 @@ const Slider = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src={PUBLIC_URL + "/assets/images/sample.jpg"}
+              src={images[0]}
               className="d-block w-100 carousel-image"
               alt="slider"
             />
             <div className="carousel-caption">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              <button className="btn btn-dark">Call To Action</button>
+              <h2>First slide label</h2>
+              <button className="btn btn-main">Call To Action</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
-              src={PUBLIC_URL + "/assets/images/sample.jpg"}
+              src={images[1]}
               className="d-block w-100 carousel-image"
               alt="slider"
             />
             <div className="carousel-caption">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h2>Second slide label</h2>
+              <button className="btn btn-main">Call To Action</button>
             </div>
           </div>
           <div className="carousel-item">
             <img
-              src={PUBLIC_URL + "/assets/images/sample.jpg"}
+              src={images[2]}
               className="d-block w-100 carousel-image"
               alt="slider"
             />
             <div className="carousel-caption">
-              <h5>Third slide label</h5>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <h2>Third slide label</h2>
+              <button className="btn btn-main">Call To Action</button>
             </div>
           </div>
         </div>

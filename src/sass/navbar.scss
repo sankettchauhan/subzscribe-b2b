@@ -1,0 +1,10 @@
+$primary: #06244d;
+// linear-gradient(302.71deg, #FF6535 0%, #F79933 100%)
+nav.navbar {
+  background: $primary;
+  .nav-link {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+}

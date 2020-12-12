@@ -1,12 +1,15 @@
 #home-page .carousel-item {
-  height: 60vh;
+  height: calc(100vh - 95px);
 }
 #home-page .carousel-image {
   object-fit: cover;
   height: 100%;
 }
 #home-page .carousel-caption {
-  top: 20px;
+  top: 50%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: left;
 }
 #home-page #blog-section .subheading {
   text-transform: uppercase;
@@ -45,12 +48,46 @@ a:hover {
 }
 
 #footer {
-  background: beige;
+  background: #06244d;
+  color: white;
+}
+#footer .nav-link {
+  color: white;
+  letter-spacing: 2px;
+}
+#footer .nav-link:hover {
+  background: linear-gradient(to right, #ff6535 0%, #f79933 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+nav.navbar {
+  background: #06244d;
+}
+nav.navbar .nav-link {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 html {
   font-size: 100%;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html .btn-main {
+  color: #06244d;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(302.71deg, #ff6535 0%, #f79933 100%);
+  outline: none;
+  border: none;
+}
+html .btn-main:hover {
+  color: white;
+}
+html .btn-main:focus {
+  box-shadow: none;
 }
 
 @media only screen and (min-width: 800px) {

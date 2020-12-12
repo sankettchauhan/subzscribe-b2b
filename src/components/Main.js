@@ -3,6 +3,7 @@ import home from "./Home/home";
 import Blog from "./Blog/Blog";
 import { BrowserRouter, Route } from "react-router-dom";
 import Footer from "./Footer";
+import Divider from "./Divider";
 import Container from "./User/Container";
 
 const BlogWithLink = ({ match, location, history }) => (
@@ -11,9 +12,10 @@ const BlogWithLink = ({ match, location, history }) => (
 
 const Main = () => {
   return (
-    <div className="App">
+    <div className="  App">
       <BrowserRouter>
         <Navbar />
+        <Divider />
         <Route exact path="/blogs/:blogTitle" component={BlogWithLink} />
         <Route
           exact
