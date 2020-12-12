@@ -7,7 +7,6 @@ const images = [
 ];
 
 const Slider = () => {
-  const PUBLIC_URL = process.env.PUBLIC_URL;
   return (
     <div>
       <div
