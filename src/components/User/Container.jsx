@@ -32,7 +32,7 @@ const Container = ({type}) => {
     return (
         <Grid container>
         <Grid item container xs={12} justify="center" >
-        <Typography variant="h2" component="h2" gutterBottom className={classes.heading}>
+        <Typography variant="h3" component="h3" gutterBottom className={classes.heading}>
         {type}
       </Typography>
         </Grid>

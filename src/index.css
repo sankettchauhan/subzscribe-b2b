@@ -1,15 +1,38 @@
-#home-page .carousel-item {
+#home-page #home-slider .carousel-item {
   height: calc(100vh - 95px);
 }
-#home-page .carousel-image {
+#home-page #home-slider .carousel-image {
   object-fit: cover;
   height: 100%;
 }
-#home-page .carousel-caption {
+#home-page #home-slider .carousel-caption {
   top: 50%;
+  transform: translateY(-50%);
   text-transform: uppercase;
   letter-spacing: 4px;
   text-align: left;
+}
+@media only screen and (min-width: 800px) {
+  #home-page #home-slider .carousel-caption {
+    transform: none;
+  }
+}
+#home-page #home-slider .carousel-caption h2 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+@media only screen and (min-width: 800px) {
+  #home-page #home-slider .carousel-caption h2 {
+    font-size: 3rem;
+  }
+}
+#home-page #home-slider .carousel-caption button {
+  font-size: 1.3em;
+}
+@media only screen and (min-width: 800px) {
+  #home-page #home-slider .carousel-caption button {
+    font-size: 1em;
+  }
 }
 #home-page #blog-section .subheading {
   text-transform: uppercase;
@@ -26,7 +49,6 @@
 #home-page #blog-section a {
   color: black;
 }
-
 #blog-page h2 {
   font-size: 3rem;
   font-family: "Times New Roman";
@@ -69,6 +91,34 @@ nav.navbar .nav-link {
   color: white;
   font-weight: 500;
   letter-spacing: 2px;
+}
+
+.divider {
+  margin-top: 66px;
+}
+@media only screen and (min-width: 800px) {
+  .divider {
+    margin-top: 100px;
+  }
+}
+
+.hamburger-menu {
+  color: white;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.logo {
+  height: 40px;
+  width: 160px;
+}
+@media only screen and (min-width: 800px) {
+  .logo {
+    height: auto;
+    width: auto;
+  }
 }
 
 html {

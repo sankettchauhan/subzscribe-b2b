@@ -1,7 +1,7 @@
 import React from "react";
 
 const Divider = () => {
-  return <div style={{ marginBottom: "95px" }} />;
+  return <div className="divider" />;
 };
 
 export default Divider;

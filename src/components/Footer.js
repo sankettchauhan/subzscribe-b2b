@@ -13,7 +13,7 @@ const Footer = () => {
                   <li
                     className="nav-item"
                     key={"footer-link-" + item.name + "-" + { index }}>
-                    <a className="nav-link py-0" href="#deadlink">
+                    <a className="nav-link py-0" href={item.url}>
                       {item.name}
                     </a>
                   </li>

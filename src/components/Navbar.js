@@ -8,6 +8,7 @@ const Navbar = () => {
       <div className="container">
         <a className="navbar-brand" href="/">
           <svg
+            className="logo"
             width="268"
             height="68"
             viewBox="0 0 268 68"
@@ -154,7 +155,7 @@ const Navbar = () => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+          <span className="fas fa-bars hamburger-menu"></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">

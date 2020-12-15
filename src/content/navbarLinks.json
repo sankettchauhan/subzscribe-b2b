@@ -5,14 +5,14 @@
         "url":"/"
     },
     {
-        "name": "Login",
-        "icon": "fas",
+        "name": " Login",
+        "icon": "fas fa-sign-in-alt",
         "url":"/login"
     },
     
     {
-        "name": "Signup",
-        "icon": "fas",
+        "name": " Signup",
+        "icon": "fas fa-sign-in-alt",
         "url":"/signup"
     }
 ]
