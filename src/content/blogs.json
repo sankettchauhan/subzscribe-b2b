@@ -1,6 +1,6 @@
 [
     {
-        "title": "Title 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "title": "Title 1 - Lorem ipsum dolor sit amet",
         "imageSrc": "sample.jpg",
         "content": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque sapien non felis scelerisque, pretium congue purus venenatis. Proin nisl libero, finibus sit amet venenatis bibendum, lacinia sit amet turpis. Morbi vulputate aliquam dolor. Proin sodales tortor ac lacus ullamcorper accumsan. Curabitur finibus magna sed sagittis tincidunt. Donec facilisis placerat diam, accumsan venenatis nulla commodo sed. In fringilla feugiat bibendum. Sed et turpis nisl. Nullam laoreet tincidunt luctus. Duis erat diam, luctus ac quam cursus, vestibulum bibendum ante. Pellentesque laoreet pellentesque nulla non dictum. Sed elit est, commodo quis sollicitudin vestibulum, tempus in elit. Quisque orci felis, tempus vel lorem eget, volutpat mattis enim. Ut egestas elementum felis et accumsan. Vestibulum porta felis a risus sollicitudin, vel porta enim facilisis. Fusce id velit venenatis, facilisis erat sed, semper felis.",
@@ -10,7 +10,7 @@
         "author": "author name"
     },
     {
-        "title": "Title 2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "title": "Title 2 - Lorem ipsum dolor sit amet",
         "imageSrc": "sample.jpg",
         "content": [
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce molestie a dui non posuere. Aenean ac risus eget turpis egestas pretium. Nulla at neque at justo feugiat viverra. Duis porttitor mollis ipsum, eget porta urna dignissim facilisis."

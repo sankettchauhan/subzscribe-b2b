@@ -37,6 +37,18 @@
   #blog-section {
     .subheading {
       text-transform: uppercase;
+      font-size: 2.5rem;
+      border-bottom: 2px solid #ccc;
+      display: inline-block;
+      @media only screen and (max-width: 800px) {
+        font-size: 1.8rem;
+      }
+    }
+    .blog-title {
+      //  MOBILE ONLY
+      @media only screen and (max-width: 800px) {
+        font-size: 1.2rem;
+      }
     }
     .blog-card {
       transition: all 0.3s;
