@@ -19,7 +19,7 @@
       }
     }
     .carousel-caption h2 {
-      font-size: 2.5em;
+      font-size: 50px;
       margin-bottom: 1em;
       @media only screen and (min-width: 800px) {
         font-size: 3rem;
@@ -37,7 +37,8 @@
   #blog-section {
     .subheading {
       text-transform: uppercase;
-      font-size: 2.5rem;
+      font-size: 50px;
+      font-weight: 600;
       border-bottom: 2px solid #ccc;
       display: inline-block;
       @media only screen and (max-width: 800px) {

@@ -31,7 +31,7 @@ const Slider = () => {
             />
             <div className="carousel-caption">
               <h2>First slide label</h2>
-              <button className="btn btn-main">Call To Action</button>
+              <button className="btn btn-main">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
@@ -42,7 +42,7 @@ const Slider = () => {
             />
             <div className="carousel-caption">
               <h2>Second slide label</h2>
-              <button className="btn btn-main">Call To Action</button>
+              <button className="btn btn-main">Learn More</button>
             </div>
           </div>
           <div className="carousel-item">
@@ -53,7 +53,7 @@ const Slider = () => {
             />
             <div className="carousel-caption">
               <h2>Third slide label</h2>
-              <button className="btn btn-main">Call To Action</button>
+              <button className="btn btn-main">Learn More</button>
             </div>
           </div>
         </div>

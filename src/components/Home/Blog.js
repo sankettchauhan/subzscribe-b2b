@@ -28,7 +28,7 @@ const Blog = () => {
       <div className="row no-gutters my-3">
         <div className="col-10 offset-1">
           <div>
-            <h2 className="subheading">featured blog posts</h2>
+            <h2 className="subheading">knowledge center</h2>
           </div>
           <div className="row no-gutters">
             {BLOGS.map((blog, index) => (

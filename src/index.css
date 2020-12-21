@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap");
 #home-page #home-slider .carousel-item {
   height: calc(100vh - 95px);
 }
@@ -18,7 +19,7 @@
   }
 }
 #home-page #home-slider .carousel-caption h2 {
-  font-size: 2.5em;
+  font-size: 50px;
   margin-bottom: 1em;
 }
 @media only screen and (min-width: 800px) {
@@ -36,7 +37,8 @@
 }
 #home-page #blog-section .subheading {
   text-transform: uppercase;
-  font-size: 2.5rem;
+  font-size: 50px;
+  font-weight: 600;
   border-bottom: 2px solid #ccc;
   display: inline-block;
 }
@@ -63,18 +65,15 @@
   color: black;
 }
 #blog-page h2 {
-  font-size: 3rem;
+  font-size: 30px;
   font-family: "Times New Roman";
 }
-#blog-page h3 {
-  font-size: 2.5rem;
-}
 #blog-page h5 {
-  font-size: 1.5rem;
+  font-size: 20px;
   text-transform: capitalize;
 }
 #blog-page p {
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 a:hover {
@@ -102,8 +101,9 @@ nav.navbar {
 }
 nav.navbar .nav-link {
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
+  font-size: 14px;
 }
 
 .divider {
@@ -132,7 +132,9 @@ nav.navbar .nav-link {
 
 html {
   font-size: 100%;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html body {
+  font-family: "Montserrat", sans-serif;
 }
 html .btn-main {
   color: #06244d;
